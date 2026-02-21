@@ -5,7 +5,7 @@
 A fully functional calculator wrapped in a Radha Krishna–inspired aesthetic. Built with pure HTML, CSS, and vanilla JavaScript — featuring a liquid glass card, animated orbs, floating Sanskrit mantras, dual themes, and full keyboard support. Zero dependencies.
 
 ##  Live Preview 
-
+https://coderbird1718.github.io/CodeAlpha_basic-calculator/
 
 ## Features
 
