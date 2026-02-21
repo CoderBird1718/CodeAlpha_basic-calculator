@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vrindavan Calculator · राधा कृष्ण</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--  BACKGROUND LAYERS  -->
+  <div class="bg-scene">
+    <div class="orb orb-gold"></div>
+    <div class="orb orb-blue"></div>
+    <div class="orb orb-rose"></div>
+    <div class="orb orb-purple"></div>
+    <!-- Floating Radhe Radhe -->
+    <div class="petal p1">राधे राधे</div>
+    <div class="petal p2">राधे राधे</div>
+    <div class="petal p3">राधे राधे</div>
+    <div class="petal p4">राधे राधे</div>
+    <div class="petal p5">राधे राधे</div>
+    <div class="petal p6">राधे राधे</div>
+  </div>
+
+  <!-- ░░ HEADER ░░ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="header-symbol">𑀅</span>
+      <span class="header-title">Vrindavan Calculator</span>
+      <span class="header-subtitle">राधे राधे</span>
+    </div>
+
+    <!-- Theme toggle -->
+    <button class="theme-btn" id="themeToggle" title="Toggle theme">
+      <span id="themeIcon">🌙</span>
+    </button>
+  </header>
+
+  <!-- ░░ MAIN ░░ -->
+  <main class="main-area">
+    <div class="calc-card" id="calculator">
+
+      <!-- Decorative top motif -->
+      <div class="motif-top">
+        <span class="motif-dot"></span>
+        <span class="motif-line"></span>
+        <span class="peacock-icon">🦚</span>
+        <span class="motif-line"></span>
+        <span class="motif-dot"></span>
+      </div>
+
+      <!-- DISPLAY -->
+      <div class="display-panel">
+        <div class="display-label">ॐ श्री राधाकृष्णाय नमः</div>
+        <div class="history-line" id="history">&nbsp;</div>
+        <div class="display-expr" id="expression">0</div>
+        <div class="display-preview" id="preview"></div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="btn-grid">
+
+        <!-- Row 1 -->
+        <button class="btn btn-fn"  data-action="clear">AC</button>
+        <button class="btn btn-fn"  data-action="sign">±</button>
+        <button class="btn btn-fn"  data-action="percent">%</button>
+        <button class="btn btn-op"  data-action="divide">÷</button>
+
+        <!-- Row 2 -->
+        <button class="btn btn-num" data-value="7">7</button>
+        <button class="btn btn-num" data-value="8">8</button>
+        <button class="btn btn-num" data-value="9">9</button>
+        <button class="btn btn-op"  data-action="multiply">×</button>
+
+        <!-- Row 3 -->
+        <button class="btn btn-num" data-value="4">4</button>
+        <button class="btn btn-num" data-value="5">5</button>
+        <button class="btn btn-num" data-value="6">6</button>
+        <button class="btn btn-op"  data-action="subtract">−</button>
+
+        <!-- Row 4 -->
+        <button class="btn btn-num" data-value="1">1</button>
+        <button class="btn btn-num" data-value="2">2</button>
+        <button class="btn btn-num" data-value="3">3</button>
+        <button class="btn btn-op"  data-action="add">+</button>
+
+        <!-- Row 5 -->
+        <button class="btn btn-num btn-wide" data-value="0">0</button>
+        <button class="btn btn-num" data-action="decimal">.</button>
+        <button class="btn btn-eq"  data-action="equals">=</button>
+
+      </div>
+
+      <!-- Keyboard hint -->
+      <p class="kb-hint">⌨ keyboard · arrows · escape supported</p>
+
+      <!-- Decorative bottom -->
+      <div class="motif-bottom">🪷 &nbsp; 🌿 &nbsp; 🪷</div>
+
+    </div>
+  </main>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="site-footer">
+    <p>कृष्णम् वन्दे जगद्गुरुम् &nbsp;·&nbsp; Made with 💛 &amp; devotion</p>
+  </footer>
+
+  <script src="calc.js"></script>
+</body>
+</html>
